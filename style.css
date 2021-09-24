@@ -1,0 +1,86 @@
+html{
+  background-image: url("https://images.unsplash.com/photo-1574607408168-ba3d03011c23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+  background-size: cover;
+  background-position: center top;
+}
+
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    font: 400 1rem 'Poppins', sans-serif;
+    background-size: 100vh;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  .subtitle{
+    font-size: 20px;
+  }
+
+  .moedas{
+  font-size: 16px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+    accent-color: #3fcf84;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  button {
+    border: 0;
+    color: #ffffff;
+    background: #1d9e5b;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover{
+    opacity: 0.8;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  
